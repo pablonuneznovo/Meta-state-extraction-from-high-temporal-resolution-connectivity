@@ -13,7 +13,7 @@ function [communities_reshaped,temporal_activation_sequence,dwell_time_total,dwe
 %               where N is the number of channels (ROIs, electrodes...) and
 %               L is the number of temporal samples
 %               - community_iterations: number of times to run the Louvain
-%               algorithm for  community detection
+%               algorithm for community detection
 %
 %       Output:
 %               - communities_reshaped: K x N x N matrix, where K is the
