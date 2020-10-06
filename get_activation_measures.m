@@ -1,5 +1,4 @@
-function [TAS_complexity,leap_size,instantaneous_correlation_speed,instantaneous_correlation_acceleration] = ...
-    get_activation_measures(temporal_activation_sequence,instantaneous_correlation_tensor,transition_cost)
+function [TAS_complexity,leap_size,instantaneous_correlation_speed,instantaneous_correlation_acceleration] = get_activation_measures(temporal_activation_sequence,instantaneous_correlation_tensor,transition_cost)
 % Computes measures derived from the temporal activation sequence and the
 % instantaneous correlation tensor
 % Nunez et al., 2020 Abnormal meta-state activation of dynamic brain
