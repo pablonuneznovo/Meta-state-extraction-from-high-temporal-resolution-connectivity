@@ -1,5 +1,4 @@
-function [communities_reshaped,temporal_activation_sequence,dwell_time_total,dwell_time_average,instantaneous_correlation_tensor,community_modularity,transition_cost] = ...
-    get_communities_louvain(connectivity_subsampled,connectivity_complete,community_iterations)
+function [communities_reshaped,temporal_activation_sequence,dwell_time_total,dwell_time_average,instantaneous_correlation_tensor,community_modularity,transition_cost] = get_communities_louvain(connectivity_subsampled,connectivity_complete,community_iterations)
 % Extracts the main meta-states from the connectivity tensors
 % Nunez et al., 2020 Abnormal meta-state activation of dynamic brain
 %                    networks across the Alzheimer spectrum
