@@ -127,7 +127,7 @@ communities=1:length(unique(community));
 for clusterN=1:length(unique(community))
     
     activated_time = (temporal_activation_sequence.'==communities(clusterN)); % 1 if the state is active, 0 else
-    nStates = countNumberOfSequences(activated_time); % Number of times the state appears in the sequence
+    nStates = count_number_of_sequences(activated_time); % Number of times the state appears in the sequence
     dwell_time_average(clusterN)=dwell_time(clusterN)/nStates; % Total dwell time / times the state appears
     
 end
