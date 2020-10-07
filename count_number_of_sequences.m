@@ -1,4 +1,4 @@
-function nStates = countNumberOfSequences(sequence)
+function nStates = count_number_of_sequences(sequence)
 sequenceLength=length(sequence);
 nStates=0;
 if sequence(1)==1
