@@ -150,7 +150,7 @@ end
 temporal_activation_sequence=temporal_activation_sequence_temp; 
 % Now the temporal_activation_sequence has the states in the same order as "clusters_sorted" (in order of dwell time)
 
-% Rebuild the clusters into connectivity matrixes
+% Rebuild the clusters into connectivity matrices
 for nCluster=1:size(clusters_sorted, 1)
     
     communities_reshaped(nCluster,:,:)=reshape(clusters_sorted(nCluster,:),[nChannels nChannels]);
